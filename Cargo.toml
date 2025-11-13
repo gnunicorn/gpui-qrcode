@@ -5,7 +5,15 @@ version = "0.1.0"
 edition = "2024"
 license = "MIT OR Apache-2.0"
 
+[features]
+default = ["qrcode-support"]
+# support for rendering from the qrcode crate
+qrcode-support = ["dep:qrcode"]
+
 [dependencies]
 gpui = "0.2.2"
-qrcode = "0.14.1"
 thiserror = "2.0.17"
+
+
+# optional
+qrcode = { version = "0.14.1", optional = true }
