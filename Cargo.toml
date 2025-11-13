@@ -1,6 +1,9 @@
 [package]
 name = "gpui-qrcode"
 description = "A QR code generator and renderer for gpui"
+documentation = "https://docs.rs/gpui-qrcode"
+repository = "https://github.com/gnunicorn/gpui-qrcode"
+authors = ["Benjamin Kampmann <ben.Kampmann@gmail.com>"]
 version = "0.1.0"
 edition = "2024"
 license = "MIT OR Apache-2.0"
